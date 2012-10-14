@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "User.h"
 
 @interface APIInterface : NSObject
-
++(User *)createUserWithEmail:(NSString *)email password:(NSString*)password url:(NSString *)url;
 @end

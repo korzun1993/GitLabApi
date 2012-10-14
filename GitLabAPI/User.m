@@ -10,4 +10,15 @@
 
 @implementation User
 
+-(id)initWithEmail:(NSString *)email password:(NSString *)password token:(NSString *)token url:(NSString *)url{
+if(self=[super init]){
+    self.userEmail = email;
+    self.userPassword = password;
+    self.userToken = token;
+    self.url=url;
+    
+}
+    return self;
+}
+
 @end

@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "AppDelegate.h"
+#import "APIInterface.h"
+#import "User.h"
 
 int main(int argc, char *argv[])
 {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
+    User * defaultUser = [APIInterface createUserWithEmail:@"test@test.com" password:@"123456" url:@"http://demo.gitlabhq.com"];
+    
 }
