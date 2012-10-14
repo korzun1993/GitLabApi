@@ -18,20 +18,22 @@ if(self=[super init]){
     self.userID= [[NSNumber alloc] initWithInteger: [[dicrionary valueForKey:@"id"] integerValue] ];
     self.url=url;
     self.isBlocked = [[NSNumber alloc] initWithBool:[[dicrionary valueForKey:@"blocked"] boolValue]];
-    self.createtAt = [dicrionary valueForKey:@"created_at"];
+    self.createdAt = [dicrionary valueForKey:@"created_at"];
+    self.userName = [dicrionary valueForKey:@"name"];
     
 }
     return self;
 }
 
 -(void)dealloc{
-    [_userEmail retain];
-    [_userID retain];
-    [_userPassword retain];
-    [_userToken retain];
-    [_url retain];
-    [_isBlocked retain];
-    [_createtAt retain];
+    [_userEmail release];
+    [_userID release];
+    [_userPassword release];
+    [_userToken release];
+    [_url release];
+    [_isBlocked release];
+    [_createdAt release];
+    [_userName release];
     [super dealloc];
 }
 @end

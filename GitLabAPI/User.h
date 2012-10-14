@@ -10,10 +10,11 @@
 
 @interface User : NSObject
 @property (retain) NSString * userEmail;
+@property (retain) NSString * userName;
 @property (retain) NSString * userPassword;
 @property (retain) NSString * userToken;
 @property (retain) NSString * url;
-@property (retain) NSString * createtAt;
+@property (retain) NSString * createdAt;
 @property (retain) NSNumber * userID;
 @property (retain) NSNumber * isBlocked;
 
