@@ -6,21 +6,22 @@ cProcessInfoPlistFile /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-
 cProcessPCH /var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch.pth GitLabAPI/GitLabAPI-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/main.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/APIInterface.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/APIInterface.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/User.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/User.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ASIDataCompressor.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/ASIDataCompressor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ASIDataDecompressor.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/ASIDataDecompressor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ASIDownloadCache.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/ASIDownloadCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ASIFormDataRequest.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/ASIFormDataRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ASIHTTPRequest.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/ASIHTTPRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ASIInputStream.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/ASIInputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/Reachability.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Reachability/Reachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ASINetworkQueue.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/ASINetworkQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/Reachability.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Reachability/Reachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/JSONKit.o /Users/korzun1993/Documents/Project/GitLabAPI/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/Project.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Project.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI normal i386
 cGenerateDSYMFile /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app.dSYM /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI
-cCpResource GitLabAPI/Default.png build/Debug-iphonesimulator/GitLabAPI.app/Default.png
 cCopyStringsFile /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/en.lproj/InfoPlist.strings GitLabAPI/en.lproj/InfoPlist.strings
+cCpResource GitLabAPI/Default.png build/Debug-iphonesimulator/GitLabAPI.app/Default.png
 cCpResource GitLabAPI/Default@2x.png build/Debug-iphonesimulator/GitLabAPI.app/Default@2x.png
 cCpResource GitLabAPI/Default-568h@2x.png build/Debug-iphonesimulator/GitLabAPI.app/Default-568h@2x.png
 cTouch /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app
@@ -101,9 +102,9 @@ t1350209447
 s369
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/APIInterface.m
-c00000000507AF6B2000000000000048C
-t1350235826
-s1164
+c00000000507B06EF0000000000000461
+t1350239983
+s1121
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/AppDelegate.h
 c00000000000000000000000000000000
@@ -294,6 +295,11 @@ N/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/CloudFiles/ASIC
 c000000005016A68E0000000000000ECE
 t1343661710
 s3790
+
+N/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/Project.m
+c00000000507AFF8C00000000000000E2
+t1350238092
+s226
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/S3/ASIS3Bucket.h
 c000000005016A68E00000000000003CC
@@ -488,6 +494,16 @@ c00000000507A7B860000000000000307
 t1350204294
 s775
 
+N/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Project.h
+c00000000507AFF8C00000000000000F6
+t1350238092
+s246
+
+N/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Project.m
+c00000000507AFF8C00000000000000E2
+t1350238092
+s226
+
 N/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Reachability/Reachability.h
 c00000000501619EE0000000000001D25
 t1343625710
@@ -499,14 +515,14 @@ t1343625710
 s23989
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/User.h
-c00000000507AEA1100000000000001FE
-t1350232593
-s510
+c00000000507B09E90000000000000268
+t1350240745
+s616
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/User.m
-c00000000507AEA1100000000000001E7
-t1350232593
-s487
+c00000000507B09E900000000000003EF
+t1350240745
+s1007
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/en.lproj/InfoPlist.strings
 c00000000507A7AEA000000000000002D
@@ -514,9 +530,9 @@ t1350204138
 s45
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m
-c00000000507AF6B2000000000000019B
-t1350235826
-s411
+c00000000507B05DD00000000000001A0
+t1350239709
+s416
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/JSONKit.h
 c000000004FFE7D760000000000002DBE
@@ -529,11 +545,11 @@ t1342078326
 s177265
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app
-t1350235167
+t1350240141
 s306
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app.dSYM
-t1350235167
+t1350240140
 s102
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/Default-568h@2x.png
@@ -549,8 +565,8 @@ t1350204738
 s16107
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI
-t1350235167
-s606568
+t1350240140
+s595560
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/Info.plist
 t1350204737
@@ -565,8 +581,8 @@ t1350204738
 s42
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/APIInterface.o
-t1350235166
-s19524
+t1350239987
+s19360
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ASIAuthenticationDialog.o
 t1350214626
@@ -709,9 +725,9 @@ t2
 s0
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/GitLabAPI.LinkFileList
-c00000000507AF6B3000000000000073C
-t1350235827
-s1852
+c00000000507B05DD00000000000007C4
+t1350239709
+s1988
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/JSONKit.o
 t1350227359
@@ -729,6 +745,10 @@ N/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphon
 t2
 s0
 
+N/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/Project.o
+t1350239714
+s2680
+
 N/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ProxyTests.o
 t2
 s0
@@ -742,12 +762,12 @@ t2
 s0
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/User.o
-t1350232595
-s10184
+t1350240139
+s14060
 
 N/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/main.o
-t1350232595
-s3188
+t1350239714
+s4432
 
 N/var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch.pth
 t1350204737
@@ -810,6 +830,9 @@ CBuild AST from /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/
 r0
 
 CBuild AST from /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/CloudFiles/ASICloudFilesRequest.m
+r0
+
+CBuild AST from /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/Project.m
 r0
 
 CBuild AST from /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/S3/ASIS3Bucket.m
@@ -881,6 +904,9 @@ r0
 CBuild AST from /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/MainViewViewController.m
 r0
 
+CBuild AST from /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Project.m
+r0
+
 CBuild AST from /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Reachability/Reachability.m
 r0
 
@@ -895,11 +921,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc51fcd322e2bb641^a65e73332e2bb641^---0#1#0#--18"Check dependencies36"526136FB-8486-4643-941F-6CEFA7D418CF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies82032a6a412bb641^80b53e6a412bb641^---0#1#0#--18"Check dependencies36"F700DF0D-40A5-457B-AE21-E54A43A39E12-
 
 CCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/APIInterface.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/APIInterface.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s371928627.474914
-e371928628.683558
+s371933546.289350
+e371933548.839742
 r1
 xCompileC
 xbuild/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/APIInterface.o
@@ -908,7 +934,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/APIInterface.m44c479332e2bb641^6281af342e2bb641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/APIInterface.m0000000000000000^3663"CompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/APIInterface.o GitLabAPI/APIInterface.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-generated-files.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-own-target-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-all-target-headers.hmap -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-project-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources/i386 -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources -F/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator -include /var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch -MMD -MT dependencies -MF /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/APIInterface.d --serialize-diagnostics /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/APIInterface.dia -c /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/APIInterface.m -o /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/APIInterface.o36"80FC7A62-934A-4B69-A9A3-875F064859F3-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/APIInterface.m84824a6a412bb641^b0add76c412bb641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/APIInterface.m0000000000000000^3663"CompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/APIInterface.o GitLabAPI/APIInterface.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-generated-files.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-own-target-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-all-target-headers.hmap -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-project-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources/i386 -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources -F/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator -include /var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch -MMD -MT dependencies -MF /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/APIInterface.d --serialize-diagnostics /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/APIInterface.dia -c /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/APIInterface.m -o /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/APIInterface.o36"E703BF49-D384-45D0-9DD4-F1C57A20C113-
 
 CCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s371907426.018420
@@ -1546,6 +1572,22 @@ r0
 CCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/PerformanceTests.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/Tests/PerformanceTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0
 
+CCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/Project.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/Project.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/Project.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Project.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371932510.013226
+e371932514.817628
+r1
+xCompileC
+xbuild/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/Project.o
+x/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Project.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Project.m5d8a035e3d2bb641^f851d1623d2bb641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Project.m0000000000000000^3633"CompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/Project.o GitLabAPI/Project.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-generated-files.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-own-target-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-all-target-headers.hmap -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-project-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources/i386 -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources -F/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator -include /var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch -MMD -MT dependencies -MF /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/Project.d --serialize-diagnostics /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/Project.dia -c /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Project.m -o /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/Project.o36"7F6EE8CE-6A3D-406A-8A19-76D4DCF10A97-
+
 CCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/ProxyTests.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Classes/Tests/ProxyTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0
 
@@ -1566,8 +1608,8 @@ CCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-no
 r0
 
 CCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/User.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/User.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s371925395.270998
-e371925395.649158
+s371933546.289597
+e371933548.032411
 r1
 xCompileC
 xbuild/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/User.o
@@ -1576,11 +1618,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/User.mde914593212bb641^3430a693212bb641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/User.m0000000000000000^3615"CompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/User.o GitLabAPI/User.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-generated-files.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-own-target-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-all-target-headers.hmap -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-project-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources/i386 -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources -F/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator -include /var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch -MMD -MT dependencies -MF /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/User.d --serialize-diagnostics /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/User.dia -c /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/User.m -o /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/User.o36"7B0CF560-0BF8-4FB2-926B-EEF7521B7EA5-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/User.m13814a6a412bb641^1e4e086c412bb641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/User.m0000000000000000^3615"CompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/User.o GitLabAPI/User.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-generated-files.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-own-target-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-all-target-headers.hmap -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-project-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources/i386 -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources -F/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator -include /var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch -MMD -MT dependencies -MF /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/User.d --serialize-diagnostics /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/User.dia -c /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/User.m -o /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/User.o36"A818A4DA-9D19-49F4-BF50-CF665274FC46-
 
 CCompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/main.o /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s371928627.474884
-e371928628.229478
+s371933546.288712
+e371933548.070730
 r1
 xCompileC
 xbuild/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/main.o
@@ -1593,7 +1635,7 @@ o/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m:16:12: warning: 
 o    User * defaultUser = [APIInterface createUserWithEmail:@"test@test.com" password:@"123456" url:@"http://demo.gitlabhq.com"];
 o           ^
 o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m05c379332e2bb641^e4bd3a342e2bb641^-292"/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m:16:12: warning: unused variable 'defaultUser' [-Wunused-variable]    User * defaultUser = [APIInterface createUserWithEmail:@"test@test.com" password:@"123456" url:@"http://demo.gitlabhq.com"];           ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@29"Unused variable 'defaultUser'-371928628#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m0000000000000000^15#11#15#11#286#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m0000000000000000^3615"CompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/main.o GitLabAPI/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-generated-files.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-own-target-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-all-target-headers.hmap -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-project-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources/i386 -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources -F/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator -include /var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch -MMD -MT dependencies -MF /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/main.dia -c /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m -o /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/main.o36"79E758A2-4A20-41B8-80EE-E0CDC372E1F1-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m64064a6a412bb641^1420126c412bb641^-292"/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m:16:12: warning: unused variable 'defaultUser' [-Wunused-variable]    User * defaultUser = [APIInterface createUserWithEmail:@"test@test.com" password:@"123456" url:@"http://demo.gitlabhq.com"];           ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@29"Unused variable 'defaultUser'-371933548#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m0000000000000000^15#11#15#11#286#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m0000000000000000^3615"CompileC build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/main.o GitLabAPI/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-generated-files.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-own-target-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-all-target-headers.hmap -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-project-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources/i386 -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources -F/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator -include /var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch -MMD -MT dependencies -MF /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/main.dia -c /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/main.m -o /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/main.o36"858DEA27-6822-4F7B-97BD-4D1B76BB934F-
 
 CCopyStringsFile /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/en.lproj/InfoPlist.strings GitLabAPI/en.lproj/InfoPlist.strings
 s371897538.734748
@@ -1632,23 +1674,23 @@ xbuild/Debug-iphonesimulator/GitLabAPI.app/Default@2x.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/GitLabAPI.app/Default@2x.png973abcc2b42ab641^397dbdc2b42ab641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/Default@2x.png000000000080d041^618"CpResource "GitLabAPI/Default@2x.png" "build/Debug-iphonesimulator/GitLabAPI.app/Default@2x.png"    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/Default@2x.png" /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app36"8DB423AB-6A6B-4AF3-AF23-5DA0AD6565CF-
 
 CGenerateDSYMFile /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app.dSYM /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI
-s371928629.692810
-e371928629.941630
+s371933551.214120
+e371933551.524238
 r1
 xGenerateDSYMFile
 x/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app.dSYM
 x/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Generating /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app.dSYM3083b1352e2bb641^0f0ff1352e2bb641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app.dSYM/0000000000000000^658"GenerateDSYMFile build/Debug-iphonesimulator/GitLabAPI.app.dSYM build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI -o /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app.dSYM36"BCFA3452-DCDD-4242-B11D-D695EA70B096-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Generating /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app.dSYM48e1366f412bb641^3737866f412bb641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app.dSYM/0000000000000000^658"GenerateDSYMFile build/Debug-iphonesimulator/GitLabAPI.app.dSYM build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI -o /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app.dSYM36"508CC614-3FC1-4754-850C-78B267195146-
 
 CLd /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI normal i386
-s371928628.690283
-e371928629.684723
+s371933548.883230
+e371933551.207111
 r1
 xLd
 x/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Link /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI07cfb0342e2bb641^ba4eaf352e2bb641^---0#0#0#--1298"Ld build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI normal i386    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator -F/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator -filelist /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/GitLabAPI.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -lz -lxml2 -framework UIKit -framework Foundation -framework CoreGraphics -framework CFNetwork -framework MobileCoreServices -framework Security -framework SystemConfiguration -o /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI36"DCA5801B-8886-411B-9F1C-D608EFA29F94-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Link /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPIea3ce26c412bb641^5307356f412bb641^---0#0#0#--1298"Ld build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI normal i386    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator -F/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator -filelist /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/Objects-normal/i386/GitLabAPI.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -lz -lxml2 -framework UIKit -framework Foundation -framework CoreGraphics -framework CFNetwork -framework MobileCoreServices -framework Security -framework SystemConfiguration -o /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/GitLabAPI36"E8D853D3-840F-4FDB-9637-7AD4FF72E19B-
 
 CProcessInfoPlistFile /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app/Info.plist GitLabAPI/GitLabAPI-Info.plist
 s371897537.653824
@@ -1676,10 +1718,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile GitLabAPI/GitLabAPI-Prefix.pch200cb0c1b42ab641^7e3a02c2b42ab641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/GitLabAPI-Prefix.pch0000000000000000^3652"ProcessPCH /var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch.pth GitLabAPI/GitLabAPI-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-generated-files.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-own-target-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-all-target-headers.hmap -iquote /Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/GitLabAPI-project-headers.hmap -I/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources/i386 -I/Users/korzun1993/Documents/Project/GitLabAPI/build/GitLabAPI.build/Debug-iphonesimulator/GitLabAPI.build/DerivedSources -F/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch.dia -c /Users/korzun1993/Documents/Project/GitLabAPI/GitLabAPI/GitLabAPI-Prefix.pch -o /var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s_/w4l9jw3d27nb33b6dj5whpcr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GitLabAPI-Prefix-aydeywtosvjebzcltgwreixyhgqj/GitLabAPI-Prefix.pch.d36"C4F515AE-FB13-47D1-926C-41B9455A27FB-
 
 CTouch /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app
-s371928629.960737
-e371928630.012409
+s371933551.546747
+e371933551.601987
 r1
 xTouch
 x/Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.appbf0cf6352e2bb641^7b2e03362e2bb641^---0#0#0#--406"Touch build/Debug-iphonesimulator/GitLabAPI.app    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app36"7C5AE713-874A-4C3F-B551-F5AEDE3C1F95-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.appbf0a8c6f412bb641^9b1c9a6f412bb641^---0#0#0#--406"Touch build/Debug-iphonesimulator/GitLabAPI.app    cd /Users/korzun1993/Documents/Project/GitLabAPI    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/korzun1993/Documents/Project/GitLabAPI/build/Debug-iphonesimulator/GitLabAPI.app36"31A5E6CB-CB81-4906-A577-0E10EB05488F-
 

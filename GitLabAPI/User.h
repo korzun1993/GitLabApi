@@ -13,6 +13,10 @@
 @property (retain) NSString * userPassword;
 @property (retain) NSString * userToken;
 @property (retain) NSString * url;
+@property (retain) NSString * createtAt;
+@property (retain) NSNumber * userID;
+@property (retain) NSNumber * isBlocked;
 
--(id)initWithEmail:(NSString*)email password:(NSString*)password token:(NSString*)token url:(NSString*) url;
+
+-(id)initWithInfo:(NSDictionary*)dicrionary password:(NSString*)password url:(NSString*) url;
 @end

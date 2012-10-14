@@ -15,4 +15,5 @@ int main(int argc, char *argv[])
 {
     User * defaultUser = [APIInterface createUserWithEmail:@"test@test.com" password:@"123456" url:@"http://demo.gitlabhq.com"];
     
+    
 }

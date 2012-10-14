@@ -28,7 +28,7 @@
         NSDictionary* decodedResponse = [response objectFromJSONData];
         
         NSLog(@"%@",decodedResponse);
-        return [[User alloc] initWithEmail:email password:password token:[decodedResponse valueForKey:@"private_token" ]url:url];
+        return [[User alloc] initWithInfo:decodedResponse password:password url:url ];
     }
     return nil;
 }

@@ -38,6 +38,7 @@
 		D366745D162AE28D0087B8BF /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D3667451162AE28D0087B8BF /* ASINetworkQueue.m */; };
 		D366745E162AE28D0087B8BF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D3667455162AE28D0087B8BF /* Reachability.m */; };
 		D3667461162B0C020087B8BF /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D3667460162B0C020087B8BF /* JSONKit.m */; };
+		D3667468162B374E0087B8BF /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = D3667467162B374E0087B8BF /* Project.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,8 @@
 		D3667455162AE28D0087B8BF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		D366745F162B0C020087B8BF /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		D3667460162B0C020087B8BF /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		D3667466162B374E0087B8BF /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		D3667467162B374E0087B8BF /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +183,8 @@
 				D366739F162ABADF0087B8BF /* APIInterface.m */,
 				D36673A1162ABBAD0087B8BF /* User.h */,
 				D36673A2162ABBAD0087B8BF /* User.m */,
+				D3667466162B374E0087B8BF /* Project.h */,
+				D3667467162B374E0087B8BF /* Project.m */,
 				D3667369162AB26A0087B8BF /* Supporting Files */,
 			);
 			path = GitLabAPI;
@@ -394,6 +399,7 @@
 				D366745D162AE28D0087B8BF /* ASINetworkQueue.m in Sources */,
 				D366745E162AE28D0087B8BF /* Reachability.m in Sources */,
 				D3667461162B0C020087B8BF /* JSONKit.m in Sources */,
+				D3667468162B374E0087B8BF /* Project.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
