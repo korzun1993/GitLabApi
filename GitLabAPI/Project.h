@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Owner.h"
+#import "Person.h"
 
 @interface Project : NSObject
 @property (retain) NSNumber * projectID;
 @property (retain) NSString * projectName;
 @property (retain) NSString * defaultBranch;
-@property (retain) Owner * owner;
+@property (retain) Person * owner;
 @property (retain) NSString * createdAt;
 @property (retain) NSString * description;
 @property (retain) NSNumber * isPrivate;

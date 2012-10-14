@@ -8,11 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Owner : NSObject
-@property (retain) NSString * ownerEmail;
-@property (retain) NSString * ownerName;
+@interface Person : NSObject
+@property (retain) NSString * personEmail;
+@property (retain) NSString * personName;
 @property (retain) NSString * createdAt;
-@property (retain) NSNumber * ownerID;
+@property (retain) NSNumber * personID;
 @property (retain) NSNumber * isBlocked;
+
 -(id)initWithInfo:(NSDictionary *)info;
 @end

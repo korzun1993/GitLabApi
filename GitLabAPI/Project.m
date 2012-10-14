@@ -17,7 +17,7 @@
         self.projectID = [[NSNumber alloc] initWithInteger: [[info valueForKey:@"id"] integerValue] ];
         self.projectName = [info valueForKey:@"name"];
         self.defaultBranch = [info valueForKey:@"default_branch"];
-        self.owner = [[Owner alloc] initWithInfo:[info valueForKey:@"owner"]];
+        self.owner = [[Person alloc] initWithInfo:[info valueForKey:@"owner"]];
         self.createdAt = [info valueForKey:@"created_at"];
         self.description = [info valueForKey:@"description"];
         self.isPrivate = [[NSNumber alloc] initWithBool:[[info valueForKey:@"private"] boolValue]];

@@ -7,7 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
+#import "Milestone.h"
+@interface Issues : NSObject
+@property (retain) NSNumber * issuesID;
+@property (retain) NSNumber * projectID;
+@property (retain) NSString * title;
+@property (retain) NSString * description;
+@property (retain) NSString * createdAt;
+@property (retain) NSString * updatedAt;
+@property (retain) NSNumber * isClosed;
+@property (retain) Person * autor;
+@property (retain) Person * assignee;
+@property (retain) Milestone * milestone;
 
-@interface issues : NSObject
-
+-(id)initWithInfo:(NSDictionary*)info ;
 @end

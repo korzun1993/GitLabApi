@@ -9,11 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "User.h"
 #import "Project.h"
-
+#import "Milestone.h"
+#import "Issues.h"
 @interface APIInterface : NSObject
 +(User *)createUserWithEmail:(NSString *)email password:(NSString*)password url:(NSString *)url;
 
 +(NSArray *)showAllProjectUser:(User *)user;
 
 +(NSArray *)showAllMilestoneProject:(Project *)project user:(User*)user;
+
++(NSArray *)showAllIssuesUser:(User *)user;
 @end

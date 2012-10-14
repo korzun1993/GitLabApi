@@ -17,6 +17,7 @@ int main(int argc, char *argv[])
     User * defaultUser = [APIInterface createUserWithEmail:@"test@test.com" password:@"123456" url:@"http://demo.gitlabhq.com"];
     NSArray * arrayOfProjects = [APIInterface showAllProjectUser:defaultUser];
     [APIInterface showAllMilestoneProject:(arrayOfProjects)[1] user:defaultUser];
+    [APIInterface showAllIssuesUser:defaultUser];
     
     
 }

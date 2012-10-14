@@ -78,19 +78,45 @@
         response   = [[request responseData] retain];
         NSArray* decodedResponse = [response objectFromJSONData];
         
-                NSLog(@"%@",decodedResponse);
-        
-       // NSMutableArray * projects = [[NSMutableArray alloc] init];
-        //for (NSDictionary * temp in decodedResponse) {
-         //   [projects addObject:[[Project alloc] initWithInfo:temp]];
+        NSMutableArray * milestones = [[NSMutableArray alloc] init];
+        for (NSDictionary * temp in decodedResponse) {
+            [milestones addObject:[[Milestone alloc] initWithInfo:temp]];
             
-        //}
-        //return projects;
+        }
+        return milestones;
     }
     return nil;
     
     
 }
 
++(NSArray*)showAllIssuesUser:(User *)user{
 
+    NSString *fullRequest = [NSString stringWithFormat:@"%@/api/v2/issues?private_token=%@",user.url,user.userToken];
+    
+    NSURL *requestURL = [NSURL URLWithString:fullRequest];
+    ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:requestURL];
+    [request setRequestMethod:@"GET"];
+    
+    [request startSynchronous];
+    NSError *error = [request error];
+    NSData *response;
+    if (!error) {
+        response   = [[request responseData] retain];
+        NSArray* decodedResponse = [response objectFromJSONData];
+        
+     
+        
+        NSMutableArray * issues = [[NSMutableArray alloc] init];
+        for (NSDictionary * temp in decodedResponse) {
+            [issues addObject:[[Issues alloc] initWithInfo:temp]];
+            
+        }
+        return issues;
+     
+    }
+    return nil;
+
+    
+}
 @end
