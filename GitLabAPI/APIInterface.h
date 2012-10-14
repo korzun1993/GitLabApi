@@ -11,7 +11,10 @@
 #import "Project.h"
 #import "Milestone.h"
 #import "Issues.h"
+#import "Branch.h"
+#import "Commits.h"
 @interface APIInterface : NSObject
+
 +(User *)createUserWithEmail:(NSString *)email password:(NSString*)password url:(NSString *)url;
 
 +(NSArray *)showAllProjectUser:(User *)user;
@@ -19,4 +22,8 @@
 +(NSArray *)showAllMilestoneProject:(Project *)project user:(User*)user;
 
 +(NSArray *)showAllIssuesUser:(User *)user;
+
++(NSArray *)showAllBranchesProject:(Project*)project user:(User *)user;
+
++(NSArray *)showRepositoryCommitsProject:(Project*)project user:(User *)user;
 @end

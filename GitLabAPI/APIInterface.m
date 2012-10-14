@@ -13,22 +13,26 @@
 
 
 @implementation APIInterface
+
++(NSData *)takeResponseToRequest:(NSString *)fullRequest HTTPMethod:(NSString *) method{
+    NSURL *requestURL = [NSURL URLWithString:fullRequest];
+    ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:requestURL];
+    [request setRequestMethod:method];
+    
+    [request startSynchronous];
+    NSError *error = [request error];
+    if (!error) {
+     return [[request responseData] retain];
+    }
+    return nil;
+}
+
 +(User *)createUserWithEmail:(NSString *)email password:(NSString *)password url:(NSString *)url{
   
     NSString *fullRequest = [NSString stringWithFormat:@"%@/api/v2/session?email=%@&password=%@",url,email,password];
-    
-    NSURL *requestURL = [NSURL URLWithString:fullRequest];
-    ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:requestURL];
-    [request setRequestMethod:@"POST"];
-   
-    [request startSynchronous];
-    NSError *error = [request error];
-    NSData *response;
-    if (!error) {
-        response   = [[request responseData] retain];
+    NSData *response = [self takeResponseToRequest:fullRequest HTTPMethod:@"POST"];
+    if(response){
         NSDictionary* decodedResponse = [response objectFromJSONData];
-        
-      //  NSLog(@"%@",decodedResponse);
         return [[User alloc] initWithInfo:decodedResponse password:password url:url ];
     }
     return nil;
@@ -37,47 +41,24 @@
 +(NSArray *)showAllProjectUser:(User *)user{
     
     NSString *fullRequest = [NSString stringWithFormat:@"%@/api/v2/projects?private_token=%@",user.url,user.userToken];
-    
-    NSURL *requestURL = [NSURL URLWithString:fullRequest];
-    ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:requestURL];
-    [request setRequestMethod:@"GET"];
-    
-    [request startSynchronous];
-    NSError *error = [request error];
-    NSData *response;
-    if (!error) {
-        response   = [[request responseData] retain];
+    NSData *response = [self takeResponseToRequest:fullRequest HTTPMethod:@"GET"];
+    if(response){
         NSArray* decodedResponse = [response objectFromJSONData];
-        
-       
-    
         NSMutableArray * projects = [[NSMutableArray alloc] init];
         for (NSDictionary * temp in decodedResponse) {
             [projects addObject:[[Project alloc] initWithInfo:temp]];
-           
         }
      return projects;
     }
     return nil;
- 
-    
 }
 
 +(NSArray *)showAllMilestoneProject:(Project *)project user:(User *)user{
     
     NSString *fullRequest = [NSString stringWithFormat:@"%@/api/v2/projects/%@/milestones?id=%@&private_token=%@",user.url,project.projectID,project.projectID,user.userToken];
-    
-    NSURL *requestURL = [NSURL URLWithString:fullRequest];
-    ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:requestURL];
-    [request setRequestMethod:@"GET"];
-    
-    [request startSynchronous];
-    NSError *error = [request error];
-    NSData *response;
-    if (!error) {
-        response   = [[request responseData] retain];
+    NSData *response = [self takeResponseToRequest:fullRequest HTTPMethod:@"GET"];
+    if(response){
         NSArray* decodedResponse = [response objectFromJSONData];
-        
         NSMutableArray * milestones = [[NSMutableArray alloc] init];
         for (NSDictionary * temp in decodedResponse) {
             [milestones addObject:[[Milestone alloc] initWithInfo:temp]];
@@ -93,20 +74,9 @@
 +(NSArray*)showAllIssuesUser:(User *)user{
 
     NSString *fullRequest = [NSString stringWithFormat:@"%@/api/v2/issues?private_token=%@",user.url,user.userToken];
-    
-    NSURL *requestURL = [NSURL URLWithString:fullRequest];
-    ASIFormDataRequest *request = [ASIFormDataRequest requestWithURL:requestURL];
-    [request setRequestMethod:@"GET"];
-    
-    [request startSynchronous];
-    NSError *error = [request error];
-    NSData *response;
-    if (!error) {
-        response   = [[request responseData] retain];
+    NSData *response = [self takeResponseToRequest:fullRequest HTTPMethod:@"GET"];
+    if(response){
         NSArray* decodedResponse = [response objectFromJSONData];
-        
-     
-        
         NSMutableArray * issues = [[NSMutableArray alloc] init];
         for (NSDictionary * temp in decodedResponse) {
             [issues addObject:[[Issues alloc] initWithInfo:temp]];
@@ -116,7 +86,41 @@
      
     }
     return nil;
+}
 
++(NSArray *) showAllBranchesProject:(Project *)project user:(User *)user{
+    NSString *fullRequest = [NSString stringWithFormat:@"%@/api/v2/projects/%@/repository/branches?private_token=%@",user.url,project.projectID,user.userToken];
+    NSData *response = [self takeResponseToRequest:fullRequest HTTPMethod:@"GET"];
+    if(response){
+        NSArray* decodedResponse = [response objectFromJSONData];
+        NSMutableArray * branches = [[NSMutableArray alloc] init];
+        for (NSDictionary * temp in decodedResponse) {
+            [branches addObject:[[Branch alloc] initWithInfo:temp]];
+            
+        }
+        return branches;
+        
+    }
+    return nil;
+ 
+}
++(NSArray *) showRepositoryCommitsProject:(Project *)project user:(User *)user{
+    NSString *fullRequest = [NSString stringWithFormat:@"%@/api/v2/projects/%@/repository/commits?private_token=%@",user.url,project.projectID,user.userToken];
+    NSData *response = [self takeResponseToRequest:fullRequest HTTPMethod:@"GET"];
+    if(response){
+        NSArray* decodedResponse = [response objectFromJSONData];
+        NSMutableArray * commits = [[NSMutableArray alloc] init];
+        for (NSDictionary * temp in decodedResponse) {
+            [commits addObject:[[Commits alloc] initWithInfo:temp]];
+            
+        }
+        return commits;
+        
+    }
+    return nil;
     
 }
+
+
+
 @end

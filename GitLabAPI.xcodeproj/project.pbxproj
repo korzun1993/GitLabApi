@@ -42,6 +42,8 @@
 		D366746B162B49E70087B8BF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D366746A162B49E70087B8BF /* Person.m */; };
 		D366746E162B60250087B8BF /* Milestone.m in Sources */ = {isa = PBXBuildFile; fileRef = D366746D162B60250087B8BF /* Milestone.m */; };
 		D3667471162B684B0087B8BF /* Issues.m in Sources */ = {isa = PBXBuildFile; fileRef = D3667470162B684B0087B8BF /* Issues.m */; };
+		D3667474162B768A0087B8BF /* Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = D3667473162B768A0087B8BF /* Branch.m */; };
+		D3667477162B7EA20087B8BF /* Commits.m in Sources */ = {isa = PBXBuildFile; fileRef = D3667476162B7EA20087B8BF /* Commits.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +116,10 @@
 		D366746D162B60250087B8BF /* Milestone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Milestone.m; sourceTree = "<group>"; };
 		D366746F162B684B0087B8BF /* Issues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Issues.h; sourceTree = "<group>"; };
 		D3667470162B684B0087B8BF /* Issues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Issues.m; sourceTree = "<group>"; };
+		D3667472162B768A0087B8BF /* Branch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Branch.h; sourceTree = "<group>"; };
+		D3667473162B768A0087B8BF /* Branch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Branch.m; sourceTree = "<group>"; };
+		D3667475162B7EA20087B8BF /* Commits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commits.h; sourceTree = "<group>"; };
+		D3667476162B7EA20087B8BF /* Commits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Commits.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +196,10 @@
 				D366736E162AB26A0087B8BF /* main.m */,
 				D366739E162ABADF0087B8BF /* APIInterface.h */,
 				D366739F162ABADF0087B8BF /* APIInterface.m */,
+				D3667475162B7EA20087B8BF /* Commits.h */,
+				D3667476162B7EA20087B8BF /* Commits.m */,
+				D3667472162B768A0087B8BF /* Branch.h */,
+				D3667473162B768A0087B8BF /* Branch.m */,
 				D3667469162B49E70087B8BF /* Person.h */,
 				D366746A162B49E70087B8BF /* Person.m */,
 				D366746F162B684B0087B8BF /* Issues.h */,
@@ -418,6 +428,8 @@
 				D366746B162B49E70087B8BF /* Person.m in Sources */,
 				D366746E162B60250087B8BF /* Milestone.m in Sources */,
 				D3667471162B684B0087B8BF /* Issues.m in Sources */,
+				D3667474162B768A0087B8BF /* Branch.m in Sources */,
+				D3667477162B7EA20087B8BF /* Commits.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

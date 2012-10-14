@@ -18,6 +18,6 @@ int main(int argc, char *argv[])
     NSArray * arrayOfProjects = [APIInterface showAllProjectUser:defaultUser];
     [APIInterface showAllMilestoneProject:(arrayOfProjects)[1] user:defaultUser];
     [APIInterface showAllIssuesUser:defaultUser];
-    
-    
+    [APIInterface showAllBranchesProject:(arrayOfProjects)[1] user:defaultUser];
+    [APIInterface showRepositoryCommitsProject:(arrayOfProjects)[1] user:defaultUser];
 }
