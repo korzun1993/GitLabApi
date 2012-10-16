@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject
-@property (retain) NSString * personEmail;
-@property (retain) NSString * personName;
+@property (retain) NSString * email;
+@property (retain) NSString * name;
 @property (retain) NSString * createdAt;
-@property (retain) NSNumber * personID;
+@property (retain) NSNumber * ID;
 @property (retain) NSNumber * isBlocked;
 
 -(id)initWithInfo:(NSDictionary *)info;

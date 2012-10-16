@@ -9,5 +9,7 @@
 #import "Person.h"
 
 @interface ProjectMember : Person
+@property (retain) NSNumber * accessLevel;
 
+-(id)initWithInfo:(NSDictionary *)info;
 @end

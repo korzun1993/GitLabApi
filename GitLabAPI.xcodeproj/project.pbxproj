@@ -21,7 +21,7 @@
 		D366738B162AB26A0087B8BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3667389162AB26A0087B8BF /* InfoPlist.strings */; };
 		D366738E162AB26A0087B8BF /* GitLabAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D366738D162AB26A0087B8BF /* GitLabAPITests.m */; };
 		D36673A0162ABADF0087B8BF /* APIInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = D366739F162ABADF0087B8BF /* APIInterface.m */; };
-		D36673A3162ABBAD0087B8BF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D36673A2162ABBAD0087B8BF /* User.m */; };
+		D36673A3162ABBAD0087B8BF /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = D36673A2162ABBAD0087B8BF /* Session.m */; };
 		D366742A162ADE100087B8BF /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3667429162ADE100087B8BF /* libxml2.dylib */; };
 		D366742C162ADE280087B8BF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D366742B162ADE280087B8BF /* libz.dylib */; };
 		D366742E162ADF210087B8BF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D366742D162ADF210087B8BF /* CFNetwork.framework */; };
@@ -44,6 +44,9 @@
 		D3667471162B684B0087B8BF /* Issues.m in Sources */ = {isa = PBXBuildFile; fileRef = D3667470162B684B0087B8BF /* Issues.m */; };
 		D3667474162B768A0087B8BF /* Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = D3667473162B768A0087B8BF /* Branch.m */; };
 		D3667477162B7EA20087B8BF /* Commits.m in Sources */ = {isa = PBXBuildFile; fileRef = D3667476162B7EA20087B8BF /* Commits.m */; };
+		D3694B62162DCFDC00913956 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D3694B61162DCFDC00913956 /* User.m */; };
+		D3694B65162DD92300913956 /* SSHKey.m in Sources */ = {isa = PBXBuildFile; fileRef = D3694B64162DD92200913956 /* SSHKey.m */; };
+		D3694B68162DE9F700913956 /* ProjectMember.m in Sources */ = {isa = PBXBuildFile; fileRef = D3694B67162DE9F700913956 /* ProjectMember.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,8 +79,8 @@
 		D366738D162AB26A0087B8BF /* GitLabAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitLabAPITests.m; sourceTree = "<group>"; };
 		D366739E162ABADF0087B8BF /* APIInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIInterface.h; sourceTree = "<group>"; };
 		D366739F162ABADF0087B8BF /* APIInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIInterface.m; sourceTree = "<group>"; };
-		D36673A1162ABBAD0087B8BF /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		D36673A2162ABBAD0087B8BF /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		D36673A1162ABBAD0087B8BF /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		D36673A2162ABBAD0087B8BF /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
 		D3667429162ADE100087B8BF /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		D366742B162ADE280087B8BF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		D366742D162ADF210087B8BF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,12 @@
 		D3667473162B768A0087B8BF /* Branch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Branch.m; sourceTree = "<group>"; };
 		D3667475162B7EA20087B8BF /* Commits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commits.h; sourceTree = "<group>"; };
 		D3667476162B7EA20087B8BF /* Commits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Commits.m; sourceTree = "<group>"; };
+		D3694B60162DCFDC00913956 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		D3694B61162DCFDC00913956 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		D3694B63162DD92200913956 /* SSHKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHKey.h; sourceTree = "<group>"; };
+		D3694B64162DD92200913956 /* SSHKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHKey.m; sourceTree = "<group>"; };
+		D3694B66162DE9F700913956 /* ProjectMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectMember.h; sourceTree = "<group>"; };
+		D3694B67162DE9F700913956 /* ProjectMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectMember.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +161,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3060A87162C545B00D7A22B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D3667475162B7EA20087B8BF /* Commits.h */,
+				D3667476162B7EA20087B8BF /* Commits.m */,
+				D3667472162B768A0087B8BF /* Branch.h */,
+				D3667473162B768A0087B8BF /* Branch.m */,
+				D3667469162B49E70087B8BF /* Person.h */,
+				D366746A162B49E70087B8BF /* Person.m */,
+				D366746F162B684B0087B8BF /* Issues.h */,
+				D3667470162B684B0087B8BF /* Issues.m */,
+				D36673A1162ABBAD0087B8BF /* Session.h */,
+				D36673A2162ABBAD0087B8BF /* Session.m */,
+				D3667466162B374E0087B8BF /* Project.h */,
+				D3667467162B374E0087B8BF /* Project.m */,
+				D366746C162B60250087B8BF /* Milestone.h */,
+				D366746D162B60250087B8BF /* Milestone.m */,
+				D3694B60162DCFDC00913956 /* User.h */,
+				D3694B61162DCFDC00913956 /* User.m */,
+				D3694B63162DD92200913956 /* SSHKey.h */,
+				D3694B64162DD92200913956 /* SSHKey.m */,
+				D3694B66162DE9F700913956 /* ProjectMember.h */,
+				D3694B67162DE9F700913956 /* ProjectMember.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D3060A89162C549C00D7A22B /* APIInterface */ = {
+			isa = PBXGroup;
+			children = (
+				D366739E162ABADF0087B8BF /* APIInterface.h */,
+				D366739F162ABADF0087B8BF /* APIInterface.m */,
+			);
+			name = APIInterface;
+			sourceTree = "<group>";
+		};
 		D3667353162AB26A0087B8BF = {
 			isa = PBXGroup;
 			children = (
@@ -194,22 +239,8 @@
 			isa = PBXGroup;
 			children = (
 				D366736E162AB26A0087B8BF /* main.m */,
-				D366739E162ABADF0087B8BF /* APIInterface.h */,
-				D366739F162ABADF0087B8BF /* APIInterface.m */,
-				D3667475162B7EA20087B8BF /* Commits.h */,
-				D3667476162B7EA20087B8BF /* Commits.m */,
-				D3667472162B768A0087B8BF /* Branch.h */,
-				D3667473162B768A0087B8BF /* Branch.m */,
-				D3667469162B49E70087B8BF /* Person.h */,
-				D366746A162B49E70087B8BF /* Person.m */,
-				D366746F162B684B0087B8BF /* Issues.h */,
-				D3667470162B684B0087B8BF /* Issues.m */,
-				D36673A1162ABBAD0087B8BF /* User.h */,
-				D36673A2162ABBAD0087B8BF /* User.m */,
-				D3667466162B374E0087B8BF /* Project.h */,
-				D3667467162B374E0087B8BF /* Project.m */,
-				D366746C162B60250087B8BF /* Milestone.h */,
-				D366746D162B60250087B8BF /* Milestone.m */,
+				D3060A89162C549C00D7A22B /* APIInterface */,
+				D3060A87162C545B00D7A22B /* Classes */,
 				D3667369162AB26A0087B8BF /* Supporting Files */,
 			);
 			path = GitLabAPI;
@@ -413,7 +444,7 @@
 			files = (
 				D366736F162AB26A0087B8BF /* main.m in Sources */,
 				D36673A0162ABADF0087B8BF /* APIInterface.m in Sources */,
-				D36673A3162ABBAD0087B8BF /* User.m in Sources */,
+				D36673A3162ABBAD0087B8BF /* Session.m in Sources */,
 				D3667456162AE28D0087B8BF /* ASIAuthenticationDialog.m in Sources */,
 				D3667457162AE28D0087B8BF /* ASIDataCompressor.m in Sources */,
 				D3667458162AE28D0087B8BF /* ASIDataDecompressor.m in Sources */,
@@ -430,6 +461,9 @@
 				D3667471162B684B0087B8BF /* Issues.m in Sources */,
 				D3667474162B768A0087B8BF /* Branch.m in Sources */,
 				D3667477162B7EA20087B8BF /* Commits.m in Sources */,
+				D3694B62162DCFDC00913956 /* User.m in Sources */,
+				D3694B65162DD92300913956 /* SSHKey.m in Sources */,
+				D3694B68162DE9F700913956 /* ProjectMember.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +627,7 @@
 				D3667393162AB26A0087B8BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3667394162AB26A0087B8BF /* Build configuration list for PBXNativeTarget "GitLabAPITests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +636,7 @@
 				D3667396162AB26A0087B8BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

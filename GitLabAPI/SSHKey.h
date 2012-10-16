@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface SSHKey : NSObject
+@property (retain) NSString * title;
+@property (retain) NSString * key;
+@property (retain) NSNumber * keyID;
 
+-(id)initWithInfo:(NSDictionary *)info;
 @end

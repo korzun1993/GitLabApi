@@ -10,4 +10,17 @@
 
 @interface User : NSObject
 
+@property (retain) NSString * bio;
+@property (retain) NSString * linkedin;
+@property (retain) NSString * skype;
+@property (retain) NSString * twitter;
+@property (retain) NSNumber * themeID;
+@property (retain) NSNumber * darkScheme;
+@property (retain) NSString * userEmail;
+@property (retain) NSString * userName;
+@property (retain) NSString * createdAt;
+@property (retain) NSNumber * userID;
+@property (retain) NSNumber * isBlocked;
+
+-(id)initWithInfo:(NSDictionary *)info;
 @end

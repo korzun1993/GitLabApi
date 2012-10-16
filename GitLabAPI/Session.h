@@ -1,5 +1,5 @@
 //
-//  User.h
+//  session.h
 //  GitLabAPI
 //
 //  Created by Корзун Владислав on 14.10.12.
@@ -8,14 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface User : NSObject
-@property (retain) NSString * userEmail;
-@property (retain) NSString * userName;
-@property (retain) NSString * userPassword;
-@property (retain) NSString * userToken;
+@interface Session : NSObject
+@property (retain) NSString * sessionEmail;
+@property (retain) NSString * sessionName;
+@property (retain) NSString * sessionPassword;
+@property (retain) NSString * sessionToken;
 @property (retain) NSString * url;
 @property (retain) NSString * createdAt;
-@property (retain) NSNumber * userID;
+@property (retain) NSNumber * sessionID;
 @property (retain) NSNumber * isBlocked;
 
 
