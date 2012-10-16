@@ -1,13 +1,13 @@
 //
-//  User.m
+//  SSHKey.m
 //  GitLabAPI
 //
 //  Created by Корзун Владислав on 16.10.12.
 //  Copyright (c) 2012 Корзун Владислав. All rights reserved.
 //
 
-#import "User.h"
+#import "SSHKey.h"
 
-@implementation User
+@implementation SSHKey
 
 @end
